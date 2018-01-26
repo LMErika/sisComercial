@@ -1,0 +1,9 @@
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\SistemaComercial.dll.config
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\SistemaComercial.dll
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\SistemaComercial.pdb
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.csproj.CoreCompileInputs.cache
+D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.dll
+D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.pdb
+D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.csprojResolveAssemblyReference.cache

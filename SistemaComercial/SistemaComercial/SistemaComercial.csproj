@@ -1,0 +1,210 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D07760F-3F40-4B9E-96B2-6653BBE6C6D5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaComercial</RootNamespace>
+    <AssemblyName>SistemaComercial</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Recurso\fonts\pluton.eot" />
+    <Content Include="Recurso\fonts\pluton.ttf" />
+    <Content Include="Recurso\fonts\pluton.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Home\Inicio.aspx" />
+    <Content Include="Recurso\css\animate.css" />
+    <Content Include="Recurso\css\bootstrap-responsive.css" />
+    <Content Include="Recurso\css\bootstrap.css" />
+    <Content Include="Recurso\css\jquery.bxslider.css" />
+    <Content Include="Recurso\css\jquery.cslider.css" />
+    <Content Include="Recurso\css\pluton-ie7.css" />
+    <Content Include="Recurso\css\pluton.css" />
+    <Content Include="Recurso\css\style.css" />
+    <Content Include="Recurso\fonts\pluton.svg" />
+    <Content Include="Recurso\imagen\About.png" />
+    <Content Include="Recurso\imagen\brand-bg.png" />
+    <Content Include="Recurso\imagen\bx_loader.gif" />
+    <Content Include="Recurso\imagen\Client1.png" />
+    <Content Include="Recurso\imagen\Client2.png" />
+    <Content Include="Recurso\imagen\Client3.png" />
+    <Content Include="Recurso\imagen\clients\ClientLogo01.png" />
+    <Content Include="Recurso\imagen\clients\ClientLogo02.png" />
+    <Content Include="Recurso\imagen\clients\ClientLogo03.png" />
+    <Content Include="Recurso\imagen\clients\ClientLogo04.png" />
+    <Content Include="Recurso\imagen\clients\ClientLogo05.png" />
+    <Content Include="Recurso\imagen\clients\ClientLogo06.png" />
+    <Content Include="Recurso\imagen\fs.spinner.gif" />
+    <Content Include="Recurso\imagen\iBook.png" />
+    <Content Include="Recurso\imagen\ico\apple-touch-icon-114.png" />
+    <Content Include="Recurso\imagen\ico\apple-touch-icon-144.png" />
+    <Content Include="Recurso\imagen\ico\apple-touch-icon-57.png" />
+    <Content Include="Recurso\imagen\ico\apple-touch-icon-72.png" />
+    <Content Include="Recurso\imagen\ico\favicon.ico" />
+    <Content Include="Recurso\imagen\iMac.png" />
+    <Content Include="Recurso\imagen\Ipad.png" />
+    <Content Include="Recurso\imagen\iPhone.png" />
+    <Content Include="Recurso\imagen\Left.png" />
+    <Content Include="Recurso\imagen\logo.png" />
+    <Content Include="Recurso\imagen\nav-icon.png" />
+    <Content Include="Recurso\imagen\Portfolio01.png" />
+    <Content Include="Recurso\imagen\Portfolio02.png" />
+    <Content Include="Recurso\imagen\Portfolio03.png" />
+    <Content Include="Recurso\imagen\Portfolio04.png" />
+    <Content Include="Recurso\imagen\Portfolio05.png" />
+    <Content Include="Recurso\imagen\Portfolio06.png" />
+    <Content Include="Recurso\imagen\Portfolio07.png" />
+    <Content Include="Recurso\imagen\Portfolio08.png" />
+    <Content Include="Recurso\imagen\Portfolio09.png" />
+    <Content Include="Recurso\imagen\Right.png" />
+    <Content Include="Recurso\imagen\Service1.png" />
+    <Content Include="Recurso\imagen\Service2.png" />
+    <Content Include="Recurso\imagen\Service3.png" />
+    <Content Include="Recurso\imagen\Slider.png" />
+    <Content Include="Recurso\imagen\Slider01.png" />
+    <Content Include="Recurso\imagen\Slider02.png" />
+    <Content Include="Recurso\imagen\Slider03.png" />
+    <Content Include="Recurso\imagen\Team1.png" />
+    <Content Include="Recurso\imagen\Team2.png" />
+    <Content Include="Recurso\imagen\Team3.png" />
+    <Content Include="Recurso\js\app.js" />
+    <Content Include="Recurso\js\bootstrap.js" />
+    <Content Include="Recurso\js\jquery.bxslider.js" />
+    <Content Include="Recurso\js\jquery.cslider.js" />
+    <Content Include="Recurso\js\jquery.inview.js" />
+    <Content Include="Recurso\js\jquery.js" />
+    <Content Include="Recurso\js\jquery.mixitup.js" />
+    <Content Include="Recurso\js\jquery.placeholder.js" />
+    <Content Include="Recurso\js\modernizr.custom.js" />
+    <Content Include="Recurso\js\respond.min.js" />
+    <Content Include="Recurso\php\functions.php" />
+    <Content Include="Recurso\php\mail.php" />
+    <Content Include="Recurso\php\newslatter.txt" />
+    <Content Include="Recurso\php\newsletter.php" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Master-Page\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51739</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51739/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

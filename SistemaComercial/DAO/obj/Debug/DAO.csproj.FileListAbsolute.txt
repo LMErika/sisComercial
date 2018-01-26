@@ -1,0 +1,6 @@
+D:\sisComercial\SistemaComercial\DAO\bin\Debug\DAO.dll
+D:\sisComercial\SistemaComercial\DAO\bin\Debug\DAO.pdb
+D:\sisComercial\SistemaComercial\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\sisComercial\SistemaComercial\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\sisComercial\SistemaComercial\DAO\obj\Debug\DAO.dll
+D:\sisComercial\SistemaComercial\DAO\obj\Debug\DAO.pdb

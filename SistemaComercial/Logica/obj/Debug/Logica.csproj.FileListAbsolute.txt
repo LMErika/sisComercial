@@ -1,0 +1,6 @@
+D:\sisComercial\SistemaComercial\Logica\bin\Debug\Logica.dll
+D:\sisComercial\SistemaComercial\Logica\bin\Debug\Logica.pdb
+D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.dll
+D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.pdb
