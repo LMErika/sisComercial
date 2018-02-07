@@ -4,3 +4,7 @@ D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.csprojResolveAssemblyRe
 D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
 D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.dll
 D:\sisComercial\SistemaComercial\Logica\obj\Debug\Logica.pdb
+D:\sisComercial\SistemaComercial\Logica\bin\Debug\DAO.dll
+D:\sisComercial\SistemaComercial\Logica\bin\Debug\Entidad.dll
+D:\sisComercial\SistemaComercial\Logica\bin\Debug\DAO.pdb
+D:\sisComercial\SistemaComercial\Logica\bin\Debug\Entidad.pdb

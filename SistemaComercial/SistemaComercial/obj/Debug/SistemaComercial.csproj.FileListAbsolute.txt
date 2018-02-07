@@ -7,3 +7,9 @@ D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.csp
 D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.dll
 D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.pdb
 D:\sisComercial\SistemaComercial\SistemaComercial\obj\Debug\SistemaComercial.csprojResolveAssemblyReference.cache
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\DAO.dll
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\Entidad.dll
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\Logica.dll
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\DAO.pdb
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\Entidad.pdb
+D:\sisComercial\SistemaComercial\SistemaComercial\bin\Logica.pdb
